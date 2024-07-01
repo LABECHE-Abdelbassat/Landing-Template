@@ -757,13 +757,13 @@ header ul div:hover .mega-menu {
   justify-content: center;
   flex-direction: column;
 }
-.team-member .social .iconify {
+.team-member .social svg {
   width: 70px;
   padding: 20px;
   color: #777;
   height: fit-content;
 }
-.team-member .social a:hover .iconify {
+.team-member .social a:hover svg {
   color: var(--primary-color);
 }
 .team-member .item .text {

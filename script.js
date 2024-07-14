@@ -17,7 +17,7 @@ let seconds = document.querySelector("#seconds");
 
 let currentDate = new Date();
 console.log(currentDate.getTime());
-let date = new Date("7-16-2025 18:00");
+let date = new Date("12-16-2024 18:00");
 console.log(date.getTime());
 let the_date = date.getTime() - currentDate.getTime();
 

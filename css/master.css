@@ -124,6 +124,7 @@ header ul li:hover::before {
 .mega-menu {
   border-bottom: 3px solid var(--primary-color);
   display: flex;
+  flex-wrap: wrap;
   position: absolute;
   top: calc(100% + 70px);
   border-top: 1px solid #ccc;
@@ -150,6 +151,14 @@ header ul div:hover .mega-menu {
 }
 .mega-menu .row {
   flex-basis: 30%;
+}
+@media (max-width: 767px) {
+  .mega-menu img {
+    flex-basis: 100%;
+  }
+  .mega-menu .row {
+    flex-basis: 50%;
+  }
 }
 .mega-menu .row .item {
   display: flex;
@@ -976,6 +985,7 @@ header ul div:hover .mega-menu {
 .works .content img {
   width: 100%;
   flex-basis: 100%;
+  padding: 50px;
   flex: 1;
 }
 @media (min-width: 768px) {
@@ -1018,6 +1028,7 @@ header ul div:hover .mega-menu {
   width: 100px;
   height: 100px;
   margin-right: 27px;
+  padding: 0;
 }
 /* end how it work section */
 /* start latest event section */
@@ -1422,7 +1433,7 @@ header ul div:hover .mega-menu {
   z-index: -1;
   left: 0;
   background-color: #af5050;
-  background-image: url(../images/apex-legends-mobile---screen-3-1618859612767.jpg);
+  background-image: url("../images/racing\ \(1\).jpg");
   filter: opacity(40%);
   background-color: #ff0000;
 }
@@ -1514,7 +1525,7 @@ header ul div:hover .mega-menu {
   top: 0;
   left: 0;
   z-index: -1;
-  background: url(../images/hades-blogroll-1623675967546.jpeg);
+  background: url("../images/racing\ \(3\).jpg");
   background-size: cover;
 }
 .discount .left h2 {
@@ -1685,7 +1696,6 @@ footer .first p {
 }
 .fourth .items .item .image {
   overflow: hidden;
-  height: 100%;
   padding: 5px;
 }
 .fourth .items .item img {
